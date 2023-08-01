@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+/* Hex codes: Sky Blue #89ABE3, Bubblegum Pink #EA738D */
+.bgcolor{
+    /* background-color: #89ABE3; */
+    background-color: hsl(266, 89%, 4%);
+    background-color: #0E0b16;
+    background-color: #140941;
+   }
+   .hcolor{
+      /* color: #ff0846; */
+    /* color:#0facd5; */
+    
+    border-color: #0facd5;
+    border-color: #f8003f;
+   }
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    /* height: 200px; */
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)   
+    )!important;
+}
