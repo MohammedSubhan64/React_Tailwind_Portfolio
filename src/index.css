@@ -17,17 +17,29 @@
 /* Hex codes: Sky Blue #89ABE3, Bubblegum Pink #EA738D */
 .bgcolor{
     /* background-color: #89ABE3; */
-    background-color: hsl(266, 89%, 4%);
     background-color: #0E0b16;
     background-color: #140941;
-   }
-   .hcolor{
+    background-color: hsl(266, 89%, 4%);
+    background-color: #0f233f;
+    background-color:#0c1c33;
+    background-color:#0e223b;
+    background-color:#0b1a31;
+    /* background-color:#0c273b; */
+    /* background-color: #1C5353; */
+    /* background-color: #1A2C3D; */
+    /* background-color: #1a202c; */
+    ;
+}
+.hcolor{
       /* color: #ff0846; */
     /* color:#0facd5; */
-    
-    border-color: #0facd5;
+    border-color: #5D001E;
     border-color: #f8003f;
-   }
+    border-color: #66FCF1;
+}
+.mytext{
+    color: #66FCF1;
+}
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;

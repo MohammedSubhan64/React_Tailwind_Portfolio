@@ -12,13 +12,13 @@ const Navbar = () => {
     <div className="fixed w-full h-[100px] text-gray-300 flex justify-between items-center px-4 bg-[#0a192f]  ">
       <div className="">
         {/* <img src={Logo} alt="logo image" style={{ width: "50px" }} /> */}
-        <p className="text-2xl font-bold text-pink-600 ">MSP</p>
+        <p className="text-2xl font-bold text-pink-600 mytext ">MSP</p>
       </div>
       {/* menu */}
       <ul className=" hidden md:flex">
       
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" className="Link" smooth={true} duration={500}>
             Home
           </Link>
         </li>
