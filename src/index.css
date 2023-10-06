@@ -37,6 +37,12 @@
     border-color: #f8003f;
     border-color: #66FCF1;
 }
+.btncolor:hover{
+    border-color: #66FCF1;
+    color: #0b1a31;
+    font-weight: 500;
+    background-color: #66FCF1;
+}
 .mytext{
     color: #66FCF1;
 }
